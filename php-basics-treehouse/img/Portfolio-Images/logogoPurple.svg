@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="isolation:isolate" viewBox="4 4 128 129" width="128pt" height="172">
+  <defs>
+    <clipPath id="_clipPath_JBXbizErN4g4369vSgtP8Jnq2NAOXPi6">
+      <path d="M0 0h138v137H0z"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#_clipPath_JBXbizErN4g4369vSgtP8Jnq2NAOXPi6)">
+    <defs>
+      <filter id="Yttpwbuf73OIa2TQBESCSRxkTQFFlB9w" x="-200%" y="-200%" width="400%" height="400%" filterUnits="objectBoundingBox" color-interpolation-filters="sRGB">
+        <feGaussianBlur xmlns="http://www.w3.org/2000/svg" in="SourceGraphic" stdDeviation="2.147"/>
+        <feOffset xmlns="http://www.w3.org/2000/svg" result="pf_100_offsetBlur"/>
+        <feFlood xmlns="http://www.w3.org/2000/svg" flood-color="#000" flood-opacity=".65"/>
+        <feComposite xmlns="http://www.w3.org/2000/svg" in2="pf_100_offsetBlur" operator="in" result="pf_100_dropShadow"/>
+        <feBlend xmlns="http://www.w3.org/2000/svg" in="SourceGraphic" in2="pf_100_dropShadow" result="_out_sndbMyX8Qjm0lPhGF8NYW4FrlbguYoiN"/>
+        <feOffset xmlns="http://www.w3.org/2000/svg" in="_out_sndbMyX8Qjm0lPhGF8NYW4FrlbguYoiN"/>
+        <feGaussianBlur xmlns="http://www.w3.org/2000/svg" stdDeviation="2.147" result="pf_101_offsetBlur"/>
+        <feComposite xmlns="http://www.w3.org/2000/svg" in="_out_sndbMyX8Qjm0lPhGF8NYW4FrlbguYoiN" in2="pf_101_offsetBlur" result="pf_101_inverse" operator="out"/>
+        <feFlood xmlns="http://www.w3.org/2000/svg" flood-color="#000" flood-opacity="1" result="pf_101_color"/>
+        <feComposite xmlns="http://www.w3.org/2000/svg" in="pf_101_color" in2="pf_101_inverse" operator="in" result="pf_101_shadow"/>
+        <feComposite xmlns="http://www.w3.org/2000/svg" in="pf_101_shadow" in2="_out_sndbMyX8Qjm0lPhGF8NYW4FrlbguYoiN" result="_out_ZjhvmE6Jo65EdMWBMN439VQkYKzWoiJW"/>
+        <feMerge>
+          <feMergeNode in="_out_ZjhvmE6Jo65EdMWBMN439VQkYKzWoiJW"/>
+        </feMerge>
+      </filter>
+    </defs>
+    <g filter="url(#Yttpwbuf73OIa2TQBESCSRxkTQFFlB9w)">
+      <path d="M67.5 8l8 21 3.5-2.5L90.5 13l.5 9.5c-3.579 2.625-2.036 8.517-1 12l1.5.5 19-10-.5 1.5-9 19 12.5.5c2.133-3.081 7.074-1.849 10-1v1L107 59.5l.5 1.5 20.5 7.5-21 7 3.5 4.5L123 90.5l-11.5.5c-2.133-3.081-7.074-1.849-10-1l-.5 1.5 10 19-1.5.5-19-10-.5 12.5c3.081 2.133 1.849 7.074 1 10h-1L76.5 107l-1.5.5-6.5 20.5-1.5-.5-6.5-20.5-2.5 1.5L45.5 124l-.5-11.5c3.328-2.377 1.943-7.792 1-11l-1.5-.5-19 10 .5-1.5 9-19-9.5-.5c-2.625 3.579-8.517 2.036-12 1l5-6L29 76.5l-.5-1.5L8 68.5l21-8-.5-1.5L12 45.5l8.5-.5c3.124 4.086 10.018 2.204 14 1l.5-1.5-10-19 1.5.5 19 9 .5-10.5c-3.328-2.377-1.943-7.792-1-11l5 4L59.5 29l1.5-.5L67.5 8z" fill="#90F"/>
+    </g>
+    <path d="M61.5 36c10.349-.839 22.433.121 29.907 8.28 16.543 18.059 9.249 49.834-15.602 55.65-16.257 3.805-36.102-5.823-39.558-23.052-1.02-5.087-1.384-11.28-.247-16.378 1.731-7.762 6.956-15.075 13.5-19.5l12-5z" fill="#FEFDFC"/>
+    <defs>
+      <filter id="V8M9BzTsTr266GAcmyorSZRCvAoW9peK" x="-200%" y="-200%" width="400%" height="400%" filterUnits="objectBoundingBox" color-interpolation-filters="sRGB">
+        <feGaussianBlur xmlns="http://www.w3.org/2000/svg" in="SourceGraphic" stdDeviation="2.147"/>
+        <feOffset xmlns="http://www.w3.org/2000/svg" result="pf_100_offsetBlur"/>
+        <feFlood xmlns="http://www.w3.org/2000/svg" flood-color="#171717" flood-opacity="1"/>
+        <feComposite xmlns="http://www.w3.org/2000/svg" in2="pf_100_offsetBlur" operator="in" result="pf_100_dropShadow"/>
+        <feBlend xmlns="http://www.w3.org/2000/svg" in="SourceGraphic" in2="pf_100_dropShadow" result="_out_bkGp3rKFKmAJ83oaDeqQLO309tPMtY2d"/>
+        <feOffset xmlns="http://www.w3.org/2000/svg" in="_out_bkGp3rKFKmAJ83oaDeqQLO309tPMtY2d"/>
+        <feGaussianBlur xmlns="http://www.w3.org/2000/svg" stdDeviation="2.147" result="pf_101_offsetBlur"/>
+        <feComposite xmlns="http://www.w3.org/2000/svg" in="_out_bkGp3rKFKmAJ83oaDeqQLO309tPMtY2d" in2="pf_101_offsetBlur" result="pf_101_inverse" operator="out"/>
+        <feFlood xmlns="http://www.w3.org/2000/svg" flood-color="#000" flood-opacity=".5" result="pf_101_color"/>
+        <feComposite xmlns="http://www.w3.org/2000/svg" in="pf_101_color" in2="pf_101_inverse" operator="in" result="pf_101_shadow"/>
+        <feComposite xmlns="http://www.w3.org/2000/svg" in="pf_101_shadow" in2="_out_bkGp3rKFKmAJ83oaDeqQLO309tPMtY2d" result="_out_7wOvEpVcbeoJlUm4IvvBGIsUPXkBJw4G"/>
+        <feMerge>
+          <feMergeNode in="_out_7wOvEpVcbeoJlUm4IvvBGIsUPXkBJw4G"/>
+        </feMerge>
+      </filter>
+    </defs>
+    <g filter="url(#V8M9BzTsTr266GAcmyorSZRCvAoW9peK)">
+      <path d="M46.5 43l-4 5 4-5zm19 0q10.896-.396 14.5 6.5 3.5 4 2 13-5.838 8.162-7.5 20.5L61 82.5q-8.167-9.833-7-29 1.375-6.125 6.5-8.5l5-2zm-30 20l.5 9.5h-1l.5-9.5zm26 21l12.5.5c.342 2.168.431 4.998-1.5 6.5l-2.5.5-.5 1.5c-2.415.295-5.384.037-6.5-2.5L61.5 84zm-47 4l-1 3 3.5.5-5.5.5 3-4zm79 0l-5 6 5-6zm29 1l2 3-5.5-.5 4-1-.5-1.5z" fill-rule="evenodd" fill="#171717"/>
+    </g>
+  </g>
+</svg>

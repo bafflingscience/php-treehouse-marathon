@@ -1,0 +1,39 @@
+line 114,
+../sass/style.sass .sidebar .social .icon.twitter {
+  background-position: 0 0;
+}
+
+/* line 116, ../sass/style.sass */
+.sidebar .social .icon.facebook {
+  background-position: -24px 0;
+}
+
+/* line 118, ../sass/style.sass */
+.sidebar .social .icon.google {
+  background-position: -48px 0;
+}
+
+/* line 120, ../sass/style.sass */
+.sidebar .social .icon.linkedin {
+  background-position: -72px 0;
+}
+
+/* line 122, ../sass/style.sass */
+.sidebar .social .icon.instagram {
+  background-position: -96px 0;
+}
+
+/* line 124, ../sass/style.sass */
+.sidebar .social .icon.github {
+  background-position: -120px 0;
+}
+
+/* line 126, ../sass/style.sass */
+.sidebar .social .icon.dribbble {
+  background-position: -144px 0;
+}
+
+/* line 128, ../sass/style.sass */
+.sidebar .social .icon.reddit {
+  background-position: -168px 0;
+}
