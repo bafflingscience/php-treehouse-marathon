@@ -71,8 +71,9 @@ article, aside, details, figcaption, figure, footer, header, menu, nav, section,
 
 /* line 24, ../sass/style.sass */
 body {
-  background: #edeff0;
-  font-family: Helvetica, sans-serif;
+  background-image: linear-gradient(90deg, #ff1a6a 0%, #47cbff 100%);
+  /*# sourceMappingURL=style.css.map */
+  font-family: 'Roboto', sans-serif;
 }
 
 /* line 27, ../sass/style.sass */
@@ -155,6 +156,11 @@ ul {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  background-image: linear-gradient(180deg, hsla(197, 100%, 64%, 0.8) 0%, hsla(276, 12%, 92%, 0.8) 51%, hsla(339, 100%, 55%, 0.8) 100%);
+  /* background-image: linear-gradient(90deg, #ff1a6a 0%, #47cbff 80%);
+  background-image: linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%); */
+
+  /*# sourceMappingURL=style.css.map */
 }
 @media all and (max-width: 640px) {
   /* line 67, ../sass/style.sass */
@@ -281,7 +287,7 @@ ul {
   font-weight: normal;
   text-align: center;
   font-size: 16px;
-  color: #8d9aa5;
+  /* color: #8d9aa5; */
 }
 /* line 153, ../sass/style.sass */
 .main .module .heading h2 strong {
@@ -318,7 +324,7 @@ ul {
   float: left;
   width: 100%;
   height: 12px;
-  background: #d1d6d9;
+  /* background: #d1d6d9; */
   overflow: hidden;
   margin: 0 0 20px;
   -webkit-border-radius: 12px;
@@ -360,7 +366,7 @@ ul {
 }
 /* line 197, ../sass/style.sass */
 .points-breakdown li .points-circle {
-  background: #8d9aa5;
+  /* background: #8d9aa5; */
   float: left;
   width: 12px;
   height: 12px;
