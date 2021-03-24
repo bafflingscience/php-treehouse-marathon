@@ -16,17 +16,16 @@
           </div>
           <h1><?php echo $display_name; ?></h1>
           <p>Contact:<br />
-          <a href="mailto:dingalingdong@dilfdongs.com">dilfdongs.com</a></p>
+          <a href="https://goodtech.tips" target="_blank">g o o d t e c h . t i p s</a></p>
           <hr />
           <img src="img/Portfolio-Images/frames_all.svg">
           <hr />
           <p><?php echo date('D, d M Y'); ?></p>
         </section>
         <section class="main">
-          <h1>Why I love PCP</h1>
-    
-          <h2>Unit Conversioninator 5000</h2>
-          <?php include 'inc/units.php'; ?>
+          <h1>It's Finally Here! You know the thing!</h1>
+          <h3>Come Fly With Me.<h3>
+          </p>Through the forest, soaring like the Majestic Flying Squirrel </p>   
           <hr />
           <h1>Today, on TreeHouse</h1>
           <div class="badges">
@@ -35,6 +34,9 @@
             <hr />
           <h2>Daily Exercise</h2>
           <p>I gotcha daily exercises right here!</p>
+          <h2>Unit Conversioninator 5000</h2>
+          <?php include 'inc/units.php'; ?>
+          <h3>Time is the Answer.</h3>
           <?php include 'inc/time-is-the-answer.php'; ?>
         </section>
     </div>
