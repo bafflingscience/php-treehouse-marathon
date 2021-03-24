@@ -5,6 +5,8 @@
   	<title>PHP Basics by
       <?php echo $display_name; ?>
     </title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
   	<link href="css/style.css" rel="stylesheet" />
   </head>
   
@@ -24,8 +26,9 @@
         </section>
         <section class="main">
           <h1>It's Finally Here! You know the thing!</h1>
-          <h3>Come Fly With Me.<h3>
-          </p>Through the forest, soaring like the Majestic Flying Squirrel </p>   
+          <h2>In other news</h2>
+          <!-- <h3>Come Fly With Me.<h3>
+          </p>Through the forest, soaring like the Majestic Flying Squirrel </p>    -->
           <hr />
           <h1>Today, on TreeHouse</h1>
           <div class="badges">
