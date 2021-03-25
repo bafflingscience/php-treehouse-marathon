@@ -13,9 +13,10 @@ $bool = true;
 // var_dump($bool);
 // echo "\n";
 ?>
+
 <h2 class="time-is-answer">if / elseif / else</h2>
 <figure>
-  <figcaption>Important Things</figcaption>
+  <figcaption></figcaption>
   <pre>
     <code class="language-php">
 
@@ -88,67 +89,6 @@ echo "
 </p>";
 </code>
 </pre>
-</figure>
-
-<figure>
-  <figurecaption>More Something Or Other</figurecaption>
-  <pre>
-    <code class="language-php">
-
-        $name = '';
-        $time = '12:30:00';
-        $num = -1;
-        $bool = true;
-
-        var_dump($name);
-        var_dump($time);
-        var_dump($num);
-        var_dump($bool);
-
-        if ($name == false) {
-          echo "\nNAME es false";
-         } else {
-           echo "NAME es true";
-          } echo "\n";
-          
-          if ($time == false) {
-            echo "TIME es false";
-          } else {
-            echo "TIME es true\n";
-          }
-          
-          if ($bool == false) {
-            echo "BOOL is true";
-          } else {
-            echo "BOOL es false\n";
-          }
-          
-          if ($num == false) {
-            echo "NUM es false";
-          } else {
-            echo "NUM es true\n\n";
-          }
-
-        echo "$num\n";
-        echo "$bool\n";
-        echo "$time\n";
-        echo "$name";
-        echo "$string == false";
-
-
-        $a = 1;
-        if ($a > 1) {
-          $a--;
-          $a += 2;
-        } elseif ($a < 1) { 
-          $a++; 
-        } else { 
-          $a +=5; 
-        } $a=$a + 2;
-         echo $a;
-        
-        </code>
-      </pre>
 </figure>
 <?php
 ?>

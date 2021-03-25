@@ -26,6 +26,7 @@
       <hr />
       <p><?php echo date('D, d M Y'); ?></p>
     </section>
+
     <section class="main">
       <h1>It's Finally Here! You know the thing!</h1>
       <h2>In other news</h2>
@@ -40,9 +41,11 @@
       <hr />
   <h2 class="arrays-header">Arrays</h2>
   <p class="arrays-description">
-  In PHP, arrays are actually ordered maps. A map is a type that associates values to keys. This type is optimized for several different uses; it can be treated as an array,   list (vector), hash table (an implementation of a map), dictionary, collection, stack, queue, and probably more. As array values can  be other arrays, trees and multidimensional arrays are also possible.
+  In PHP, arrays are actually ordered maps. A map is a type that associates values to keys. This type is optimized for several different uses; it can be treated as an array,
+  list (vector), hash table (an implementation of a map), dictionary, collection, stack, queue, and probably more. As array values can  be other arrays, trees and multidimensional arrays are also possible.
 <br>
 
+<?php include 'inc/arrays/php-multidimensional-arrays.php'; ?>
 
 <br>
   <h2 class="array-keys-header">Array Keys</h2>
@@ -53,13 +56,8 @@
     <li>Can be a combination of Integers and Strings</li>
   </ul>
 
-
-
 Can either be an integer or a string. (The value can be of any type.)<br>
-
 Can be a combination of integers and strings. <br>
-
-<em>Note: ksort will NOT work if numeric and string keys are mixed together.
 
 </p>
 <h2 class="arrays-header" id="key-casting">Key Casting</h2>
@@ -73,199 +71,23 @@ Arrays and objects can not be used as keys. Doing so will result in a warning: I
 If multiple elements in the array declaration use the same key, only the last one will be used as all others are overwritten.
   </p>
   <br>
-  <figure>
-    <figurecaption>PHP Associative Arrays</figurecaption>
-    <pre>
-              <code class="language-php">
+  <?php include 'inc/time-is-the-answer.php';?>
 
-                $var_array = array(
-                  "color" => "blue",
-                  "size"  => "medium",
-                  "shape" => "sphere"
-                  );
-                  
-                  extract($var_array);
+</code>
+</pre>
+</figure>
+</section>
+</div>
+<section class="footer text-center">
+  &copy;<?php 
+    echo date('Y');
+    echo "  " . $display_name . '.';
+    echo "  last modified on " . date("F d Y", getlastmod()); ?>
+</section>
+  
+<div id="treehouse-badges"></div>
+<script src="badges.js"></script>
+<script src="js/prism.js"></script>
 
-                  $iceCream = array(
-                    'Alena'     => 'Black Cherry', 
-                    'Dave'      => 'Cookies and Cream',
-                    'Treasure'  => 'Chocolate',
-                    'Rialla'    => 'Strawberry'
-                    );
-
-                    $iceCream = [
-                        'Alena'     => 'Black Cherry', 
-                        'Dave'      => 'Cookies and Cream',
-                        'Treasure'  => 'Chocolate',
-                        'Rialla'    => 'Strawberry'
-                        ];
-                      </code>
-            </pre>
-          </figure>
-          
-          <?php include 'inc/time-is-the-answer.php';?>
-          <figure>
-            <figcaption>More Arrays</figcaption>
-              <pre>
-                <code class="language-php">
-    
-  echo 
-  "An array is a compound variable type meaning it can contain more than one value. 
-  We'll start with a basic indexed array, which can be used as a list of items: 
-  shopping list, days of the week, the top ten scores in a game, or a todo list."
-
-// MULTIDIMENSIONAL ARRAYS
-$task1 = array(
-	'title'     => 'Laundry',
-	'priority'  => 2,
-	'due'       => '',
-	'complete'  => true
-);
-
-$taskList = array($task1);
-$taskNames['Task 1'] = $task1;
-
-/* 
-In the code above:
-$taskList[0]['title'], 
-$taskNames['Task 1']['title'] 
-and 
-$task1['title'] all return 'Laundry'.
-*/
-
-// $task2 = array(
-//   'title' => 'Clean fridge',
-//   'priority' => 3,
-//   'due' => '05/30/2024',
-//   'complete' => false
-// );
-// $list = array($task1, $task2);
-
-// var_dump($list);
-/*
-array(2) {
-  [0]=>
-  array(4) {
-    ["title"]=>
-    string(7) "Laundry"
-    ["priority"]=>
-    int(2)
-    ["due"]=>
-    string(0) ""
-    ["complete"]=>
-    bool(true)
-  }
-  [1]=>
-  array(4) {
-    ["title"]=>
-    string(12) "Clean fridge"
-    ["priority"]=>
-    int(3)
-    ["due"]=>
-    string(10) "05/30/2024"
-    ["complete"]=>
-    bool(false)
-  }
-}
-*/
-
-echo $list[0]['title']; // Laundry
-
-// NOW ADD ITEMS TO THE LIST ARRAY 
-// FROM TWO TASK LIST ARRAYS ABOVE 
-$list[] = array(
-    'title' => 'Laundry',
-    'priority' => 2,
-    'due' => '',
-    'complete' => true,
-);
-
-$list[] = array(
-    'title' => 'Clean fridge',
-    'priority' => 3,
-    'due' => '05/30/2024',
-    'complete' => false,
-);
-
-// THE SHORTER SYNTAX TO ACCOMPLISH THE SAME THING
-// OFTEN USED IN MULTIDIMENSIONAL ARRAYS
-
-$list[] = [
-    'title' => 'Laundry',
-    'priority' => 2,
-    'due' => '',
-    'complete' => true,
-];
-
-$list[] = [
-    'title' => 'Clean fridge',
-    'priority' => 3,
-    'due' => '05/30/2024',
-    'complete' => false,
-];
-
-// YOU CAN SPECIFY A KEY FOR EACH ARRAY LIKE SO:
-
-$list['Task 1'] = [
-    'title' => 'Laundry',
-    'priority' => 2,
-    'due' => '',
-    'complete' => true,
-];
-
-$list['Task 2'] = [
-    'title' => 'Clean fridge',
-    'priority' => 3,
-    'due' => '05/30/2024',
-    'complete' => false,
-];
-
-var_dump($list);
-/*
-  }
-  ["Task 1"]=>
-  array(4) {
-    ["title"]=>
-    string(7) "Laundry"
-    ["priority"]=>
-    int(2)
-    ["due"]=>
-    string(0) ""
-    ["complete"]=>
-    bool(true)
-  }
-  ["Task 2"]=>
-  array(4) {
-    ["title"]=>
-    string(12) "Clean fridge"
-    ["priority"]=>
-    int(3)
-    ["due"]=>
-    string(10) "05/30/2024"
-    ["complete"]=>
-    bool(false)
-  }
-*/
-
-?>
-```
-
-          </code>
-        </pre>
-      </figure>
-    </section>
-  </div>
-  <section class="footer text-center">
-    &copy;
-    <?php 
-        echo date('Y');
-        echo "  " . $display_name . '.';
-        echo "  last modified on " . date("F d Y", getlastmod()); 
-      ?>
-  </section>
-  <div id="treehouse-badges"></div>
-  <script src="badges.js"></script>
-  <script src="js/prism.js"></script>
 </body>
-
 </html>
