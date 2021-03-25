@@ -87,16 +87,32 @@ h1, h2, h3 {
 }
 /* line 30, ../sass/style.sass */
 h1 {
-  margin: 10px 0;
+  margin: 20px 20px;
   font-size: 44px;
 }
 
+h1.today-on-treehouse {
+  text-align: center;
+}
+h2.pretty-hoppin-party {
+  text-align: center;
+}
+h2.arrays-header {
+  margin: 20px 20px;
+  text-align: center;
+}
+
+h2.time-is-answer {
+  margin: 20px;
+  text-align: center;
+}
+
+
 /* line 34, ../sass/style.sass */
 h2 {
-  font-size: 30px;
+  font-size: 32px;
   /* line-height: 24px; */
-  margin: 10px 0;
-  /* font-weight: bold; */
+  margin: 20px 20px;
 }
 
 /* line 38, ../sass/style.sass */
@@ -112,6 +128,13 @@ h4 {
 }
 
 /* line 42, ../sass/style.sass */
+
+p.arrays-description {
+  font-family: 'Monsteerrat', sans-serif;
+  font-size: 20px;
+  margin-top: 5px 5px;
+}
+
 p {
   font-size: 14px;
   line-height: 20px;
